@@ -7,15 +7,13 @@ export default {
     var lastName = faker.name.lastName()
 
     var data = {
-      email: faker.internet.email(firstName),
-      referencia: "12344",
-      texto: "Duvida sobre o pedido 123 podem me ajudar",
-      cnh: "cnh-digital.jpg",
+      //Dados invaálidos
+      nomeInvalido: `${firstName} ${lastName}Teste limiete caracteressssssssssssssssssssssssssssssssssssssssssssssssss`,
+      emailInvalido: "JoaodaSilva.com.br",
+      telefoneInvalido: "51 99",
+      mensagemInvalida: "Teste?",
     };
     return data
   }
-  
-  
-  
   
 }
